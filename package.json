@@ -1,0 +1,24 @@
+{
+  "name": "next_with_prisma",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.2.0",
+    "autoprefixer": "10.4.15",
+    "bcrypt": "^5.1.1",
+    "next": "13.4.19",
+    "postcss": "8.4.28",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "3.3.3"
+  },
+  "devDependencies": {
+    "prisma": "^5.2.0"
+  }
+}
