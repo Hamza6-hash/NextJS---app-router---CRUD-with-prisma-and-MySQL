@@ -9,7 +9,7 @@ export async function POST(req) {
         const { firstName, lastName, email, password } = await req.json();
         if (!firstName || !lastName || !email || !password) return NextResponse.json(
             {
-                msg: "Not empty fields are allowed"
+                msg: "No empty fields are allowed"
             },
             {
                 status: 400
